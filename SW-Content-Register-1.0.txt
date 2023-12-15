@@ -1,0 +1,77 @@
+NXP Software Content Register
+
+Package:                   dm-lpc55s69-fashion-mnist-object-recognition
+
+Version:                   1.0
+Outgoing License:          LA_OPT_NXP_Software_License v52 November 2023- Additional Distribution License granted, license in Section 2.3 applies
+License File:              LICENSE
+Description and comments:  This demo demonstrates the AI capabilities of the LPC55S69. It displays the image captured by the camera on the LCD screen and performs fashion mnist object recognition.
+Release Location:          https://github.com/nxp-appcodehub/dm-lpc55s69-fashion-mnist-object-recognition
+Origin:                    NXP (proprietary)
+                           NXP (BSD-3-Clause)
+                           cmsis - ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+                           cmsis-nn - ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+                           cmsis_iccarm - IAR Systems, ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+                           TensorFlow - Google Inc (Apache-2.0) - https://github.com/tensorflow/tensorflow/
+                           specs2 - Eric Torreborre (MIT License) - http://github.com/etorreborre/specs2/
+                           openmv - Ibrahim Abdelkader, Kwabena W. Agyeman (MIT License) - https://github.com/openmv
+
+
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.3.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                  
+                           Format: source code                               
+                           Description and comments: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores 
+                           Release location：https://github.com/nxp-appcodehub/dm-lpc55s69-fashion-mnist-object-recognition/tree/main/CMSIS/    
+                           Origin: ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+
+cmsis_iccarm               Name: cmsis_iccarm.h                                     
+                           Version: 5.1.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: header files                               
+                           Description and comments: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores     
+                           Release location: https://github.com/nxp-appcodehub/dm-lpc55s69-fashion-mnist-object-recognition/tree/main/CMSIS/cmsis_iccarm.h            
+                           Origin: IAR Systems, ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/		   
+
+TensorFlow                 Name: eiq_libtf_cm33.lib                             
+                           Version: 2.3.1                                    
+                           Outgoing License: Apache License 2.0                      
+                           License File: eiq_lib/LICENSE            
+                           Format: library                             
+                           Description: Software library for running machine learning models on mobile and embedded devices    
+                           Release location: https://github.com/nxp-appcodehub/dm-lpc55s69-fashion-mnist-object-recognition/tree/main/eiq_lib/
+                           Origin: Google Inc (Apache-2.0) - https://github.com/tensorflow/tensorflow      
+
+cmsis-nn                   Name: aia_cmsisnn_cm33.lib                           
+                           Version: 5.3.0                                    
+                           Outgoing License: Apache License 2.0                      
+                           License File: eiq_lib/LICENSE            
+                           Format: library                             
+                           Description: CMSIS NN software library is a collection of efficient neural network kernels developed to maximize the performance and minimize the memory footprint of neural networks on Arm Cortex-M processors.    
+                           Release location: https://github.com/nxp-appcodehub/dm-lpc55s69-fashion-mnist-object-recognition/tree/main/eiq_lib/
+                           Origin: ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+
+specs2                     Name: eiq_libtf_cm33.lib                             
+                           Version: 4.3.0                                    
+                           Outgoing License: MIT License                               
+                           Format: library                             
+                           Description: specs2 is a library for writing executable software specifications in Scala.    
+                           Release location: https://github.com/nxp-appcodehub/dm-lpc55s69-multi-face-detection/tree/main/eiq_lib/
+                           Origin: Eric Torreborre (MIT License) - http://github.com/etorreborre/specs2/
+
+openmv                     Name: eiq_libtf_cm33.lib                             
+                           Version: 4.3.0                                    
+                           Outgoing License: MIT License                             
+                           Format: library                              
+                           Description: The OpenMV project aims at making machine vision more accessible to beginners by developing a user-friendly, 
+                                        open-source, low-cost machine vision platform.    
+                           Origin: Ibrahim Abdelkader, Kwabena W. Agyeman (MIT License) - https://github.com/openmv
